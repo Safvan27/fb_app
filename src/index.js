@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+//import Ajax from './Ajax';
+//import Form from './Form';
 import App from './App';
 //import Counter from './Counter';
 //import reportWebVitals from './reportWebVitals';
 //import {Header} from "./Home";
 //import Counternew from './Counternew';
-import Demo from './Demo';
+//import Demo from './Demo';
 //import Demonew from './Demonew';
 
 
 //var x = setInterval( () => {
 //    ReactDOM.render(<Counter/>,document.getElementById('root'));
 //},1000)
-ReactDOM.render(<Demo/>,document.getElementById('root'));
+ReactDOM.render(<App/>,document.getElementById('root'));
 
 
 
