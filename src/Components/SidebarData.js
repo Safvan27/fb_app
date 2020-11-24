@@ -10,7 +10,7 @@ import SettingsIcon from '@material-ui/icons/Settings';
 
 export const SidebarData= [
     {
-        title:"Dashboard",
+        title:"DashHboard",
         icon:<HomeIcon/>,
         link:"/Dashboard"
         
