@@ -5,16 +5,16 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import DoneIcon from '@material-ui/icons/Done';
 import ClearIcon from '@material-ui/icons/Clear';
-import history from './History';
+//import history from './History';
 
-import Postfacebook from './Post-facebook';
+//import Postfacebook from './Post-facebook';
 
 import "./Listing.css";
-import{
-  BrowserRouter as Router,
-  Switch,
-  Route,Link
-} from 'react-router-dom';
+// import{
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,Link
+// } from 'react-router-dom';
 
 function Listing() {
     return (
@@ -49,7 +49,7 @@ function Listing() {
       <td>3/5</td>
       <td>Yes</td>
       <td><DoneIcon color="primary"/></td>
-      <td><button type="button" class="btn btn-primary">Update</button></td>
+      <td><button type="button" className="btn btn-primary">Update</button></td>
 
     </tr>
     <tr>
@@ -61,7 +61,7 @@ function Listing() {
       <td>3/5</td>
       <td>Yes</td>
       <td><ClearIcon color="secondary"/></td>
-      <td><button type="button" class="btn btn-primary">Update</button></td>
+      <td><button type="button" className="btn btn-primary">Update</button></td>
       
     </tr>
     <tr>
@@ -73,7 +73,7 @@ function Listing() {
       <td>3/5</td>
       <td>Yes</td>
       <td><ClearIcon color="secondary"/></td>
-      <td><button type="button" class="btn btn-primary">Update</button></td>
+      <td><button type="button" className="btn btn-primary">Update</button></td>
       
     </tr>
     <tr>
@@ -85,7 +85,7 @@ function Listing() {
       <td>3/5</td>
       <td>Yes</td>
       <td><ClearIcon color="secondary"/></td>
-      <td><button type="button" class="btn btn-primary">Update</button></td>
+      <td><button type="button" className="btn btn-primary">Update</button></td>
       
     </tr>
     <tr>
@@ -97,7 +97,7 @@ function Listing() {
       <td>3/5</td>
       <td>Yes</td>
       <td><ClearIcon color="secondary"/></td>
-      <td><button type="button" class="btn btn-primary">Update</button></td>
+      <td><button type="button" className="btn btn-primary">Update</button></td>
       
     </tr>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../App.css";
 import SidebarData from './SidebarData';
-import Dashboard from './Dashboard';
+//import Dashboard from './Dashboard';
 import Listings from './Listings';
 import{
     BrowserRouter as Router,
@@ -20,7 +20,7 @@ function Sidebar() {
                     <li 
                          key={key}
                         className="row"
-                        id={window.location.pathname == val.link ? "active" : ""}
+                        id={window.location.pathname === val.link ? "active" : ""}
                         onClick={()=>{
                          window.location.pathname = val.link;
                          }}>
