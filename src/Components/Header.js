@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
- import {Navbar,Nav,Form,Button} from 'react-bootstrap';
- import "./Listing.css";
- import Facebook from './Facebook';
+ import {Navbar,Nav} from 'react-bootstrap';
+import "./Listing.css";
+//import Facebook from './Facebook';
 
  class Header extends Component{
     render(){
