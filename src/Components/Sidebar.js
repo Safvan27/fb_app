@@ -1,6 +1,6 @@
 import React from 'react';
 import "../App.css";
-import {SidebarData} from './SidebarData';
+import SidebarData from './SidebarData';
 import Dashboard from './Dashboard';
 import Listings from './Listings';
 import{
